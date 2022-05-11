@@ -1,0 +1,45 @@
+#bodydiv{
+    position: relative;
+}
+header{
+    /* border: 1px solid black; */
+    margin: 10px;
+    padding: 10px;
+}
+header input{
+    padding: 5px;
+    display: inline;
+}
+#time{
+    border: 1px solid black;
+    float: right;
+    padding: 5px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+#button{
+    display: flex;
+    justify-content: center;
+}
+button{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#distime{
+    padding-top: 300px;
+    font-weight: 900;
+    font-size: 100px;
+    text-align: center;
+    color:white;
+    height: 55vh;
+    width: 100vw;
+    position: absolute;
+    background-color: gray;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    display: none;
+}
+textarea{
+    font-size: large;
+}
